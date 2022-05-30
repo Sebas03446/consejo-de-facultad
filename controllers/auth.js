@@ -83,7 +83,7 @@ const loginUsuario = async (req, res = response) => {
   }
 };
 
-const revalidarToken = async (req, res = response) => {
+/* const revalidarToken = async (req, res = response) => {
   const { uid, name } = req;
 
   // Generar JWT
@@ -93,10 +93,10 @@ const revalidarToken = async (req, res = response) => {
     ok: true,
     token,
   });
-};
+}; */
 
 module.exports = {
   crearUsuario,
   loginUsuario,
-  revalidarToken,
+  //revalidarToken,
 };
