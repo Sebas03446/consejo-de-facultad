@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const dbConnection = async () => {
   try {
     await mongoose.connect(
-      `mongodb://admin:admin123@localhost:27017/consejo_facultad?authSource=admin`
+      `mongodb+srv://doadmin:zGH942q35c8if17S@db-mongodb-nyc3-09422-3a8b11d0.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=db-mongodb-nyc3-09422`
     );
 
     console.log("Db Online");
