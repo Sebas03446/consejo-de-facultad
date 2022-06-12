@@ -31,6 +31,8 @@ const crearUsuario = async (req, res = response) => {
       ok: true,
       uid: usuario.id,
       name: usuario.name,
+      academic_degree: usuario.academic_degree,
+      email: usuario.email,
       token,
     });
   } catch (error) {
@@ -72,6 +74,8 @@ const loginUsuario = async (req, res = response) => {
       ok: true,
       uid: usuario.id,
       name: usuario.name,
+      academic_degree: usuario.academic_degree,
+      email: usuario.email,
       token,
     });
   } catch (error) {

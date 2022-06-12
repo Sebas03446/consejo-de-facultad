@@ -32,6 +32,7 @@ const crearAdmin = async (req, res = response) => {
       ok: true,
       uid: usuario.id,
       name: usuario.name,
+      email: usuario.email,
       token,
     });
   } catch (error) {
