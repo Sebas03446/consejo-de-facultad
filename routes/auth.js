@@ -10,9 +10,12 @@ const {
   loginUsuario,
   revalidarToken,
 } = require("../controllers/auth");
+const { crearAdmin } = require("../controllers/user");
 //const { validarJWT } = require("../middlewares/validar-jwt");
 
 const router = Router();
+
+router.post("/new_admin", crearAdmin);
 
 router.post(
   "/new",
