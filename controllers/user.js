@@ -84,8 +84,26 @@ const eliminarUsuario = async (req, res = response) => {
   }
 };
 
+const removeAllUsers = async (req, res = response) => {
+  try { 
+    await Usuario.deleteMany({}).exec();
+    res.json({ok:true});
+    
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({
+      ok: false,
+      msg: "Hable con el administrador"
+    });
+    
+  }
+
+};
+
+
 module.exports = {
   crearAdmin,
   listAllUsers,
   eliminarUsuario,
+  removeAllUsers
 };
