@@ -105,5 +105,5 @@ module.exports = {
   crearAdmin,
   listAllUsers,
   eliminarUsuario,
-  removeAllUsers
+  removeAllUsers,
 };
