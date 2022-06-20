@@ -14,6 +14,13 @@ const UsuarioSchema = Schema({
     type: String,
     require: true,
   },
+  privilege: {
+    type: String,
+    require: true,
+  },
+  academic_degree: {
+    type: String,
+  },
 });
 
 module.exports = model("Usuario", UsuarioSchema);
