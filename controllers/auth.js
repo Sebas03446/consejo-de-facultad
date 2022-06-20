@@ -17,9 +17,9 @@ const crearUsuario = async (req, res = response) => {
     }
 
     usuario = new Usuario(req.body);
-
     // Encriptar contraseña
     const salt = bcrypt.genSaltSync();
+    usuario.privilege = "student";
     usuario.password = bcrypt.hashSync(password, salt);
 
     await usuario.save();
@@ -31,6 +31,8 @@ const crearUsuario = async (req, res = response) => {
       ok: true,
       uid: usuario.id,
       name: usuario.name,
+      academic_degree: usuario.academic_degree,
+      email: usuario.email,
       token,
     });
   } catch (error) {
@@ -72,6 +74,8 @@ const loginUsuario = async (req, res = response) => {
       ok: true,
       uid: usuario.id,
       name: usuario.name,
+      academic_degree: usuario.academic_degree,
+      email: usuario.email,
       token,
     });
   } catch (error) {
