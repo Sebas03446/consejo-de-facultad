@@ -1,7 +1,8 @@
-const { response } = require("express");
+const { response, request } = require("express");
 const bcrypt = require("bcryptjs");
 const Usuario = require("../models/Usuario");
 const { generarJWT } = require("../helpers/jwt");
+const { isValidToken } = require("../middlewares/isValidToken");
 
 const crearUsuario = async (req, res = response) => {
   const { password, email } = req.body;
@@ -29,10 +30,7 @@ const crearUsuario = async (req, res = response) => {
 
     res.status(201).json({
       ok: true,
-      uid: usuario.id,
-      name: usuario.name,
-      academic_degree: usuario.academic_degree,
-      email: usuario.email,
+      usuario,
       token,
     });
   } catch (error) {
@@ -46,10 +44,8 @@ const crearUsuario = async (req, res = response) => {
 
 const loginUsuario = async (req, res = response) => {
   const { email, password } = req.body;
-
   try {
     const usuario = await Usuario.findOne({ email });
-
     if (!usuario) {
       return res.status(400).json({
         ok: false,
@@ -69,14 +65,34 @@ const loginUsuario = async (req, res = response) => {
 
     // Generar JWT
     const token = await generarJWT(usuario.id, usuario.name);
+    res.status(200).json({
+      ok: true,
+      usuario,
+      token,
+    });
+  } catch (error) {
+    res.status(500).json({
+      ok: false,
+      msg: "Por favor hable con el administrador",
+    });
+  }
+};
+
+const revalidarToken = async (req = request, res = response) => {
+  try {
+    const { token } = req.cookies;
+
+    const { uid, name } = await isValidToken(token);
+
+    const usuario = await Usuario.findById(uid);
+
+    // Generar JWT
+    const newToken = await generarJWT(uid, name);
 
     res.json({
       ok: true,
-      uid: usuario.id,
-      name: usuario.name,
-      academic_degree: usuario.academic_degree,
-      email: usuario.email,
-      token,
+      usuario,
+      token: newToken,
     });
   } catch (error) {
     console.log(error);
@@ -87,20 +103,8 @@ const loginUsuario = async (req, res = response) => {
   }
 };
 
-/* const revalidarToken = async (req, res = response) => {
-  const { uid, name } = req;
-
-  // Generar JWT
-  const token = await generarJWT(uid, name);
-
-  res.json({
-    ok: true,
-    token,
-  });
-}; */
-
 module.exports = {
   crearUsuario,
   loginUsuario,
-  //revalidarToken,
+  revalidarToken,
 };

@@ -30,9 +30,7 @@ const crearAdmin = async (req, res = response) => {
 
     res.status(201).json({
       ok: true,
-      uid: usuario.id,
-      name: usuario.name,
-      email: usuario.email,
+      usuario,
       token,
     });
   } catch (error) {
@@ -85,21 +83,17 @@ const eliminarUsuario = async (req, res = response) => {
 };
 
 const removeAllUsers = async (req, res = response) => {
-  try { 
-    await Usuario.deleteMany({}).exec();
-    res.json({ok:true});
-    
+  try {
+    await Usuario.deleteMany({});
+    res.json({ ok: true });
   } catch (error) {
     console.log(error);
     res.status(500).json({
       ok: false,
-      msg: "Hable con el administrador"
+      msg: "Hable con el administrador",
     });
-    
   }
-
 };
-
 
 module.exports = {
   crearAdmin,
