@@ -19,5 +19,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
     "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "arkit": "^1.6.4"
   }
 }

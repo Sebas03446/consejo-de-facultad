@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="331px" preserveAspectRatio="none" style="width:926px;height:331px;" version="1.1" viewBox="0 0 926 331" width="926px" zoomAndPan="magnify"><defs/><g><!--MD5=[a6f11bb19cee6b13000111f5ad685e8b]
+cluster Dependencies--><path d="M160.907,237 L262.907,237 A4.5,4.5 0 0 1 265.907,240 L272.907,256.9688 L848.907,256.9688 A3,3 0 0 1 851.907,259.9688 L851.907,316 A3,3 0 0 1 848.907,319 L160.907,319 A3,3 0 0 1 157.907,316 L157.907,240 A3,3 0 0 1 160.907,237 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="157.907" x2="272.907" y1="256.9688" y2="256.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="161.907" y="250.1387">Dependencies</text><!--MD5=[2175ea9c213c2ac0d57c4a91b2603145]
+entity bcryptjs--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="70" x="765.907" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="760.907" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="760.907" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="775.907" y="290.1387">bcryptjs</text><!--MD5=[564a394d57ce3e0a92ac6699042b9ef1]
+entity cors--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="47" x="252.407" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="247.407" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="247.407" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="262.407" y="290.1387">cors</text><!--MD5=[b84d8dbe3cf51322a9824c71d57d534f]
+entity dotenv--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="63" x="174.407" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="169.407" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="169.407" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="184.407" y="290.1387">dotenv</text><!--MD5=[6d151e53a42aadf92577082572a20d90]
+entity express--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="70" x="414.907" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="409.907" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="409.907" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="424.907" y="290.1387">express</text><!--MD5=[1a3305b24c4ea3d0ccf1ba9db136655d]
+entity express-validator--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="130" x="499.907" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="494.907" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="494.907" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="110" x="509.907" y="290.1387">express-validator</text><!--MD5=[456d7759478929e3d83f68f29b03eb91]
+entity jsonwebtoken--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="106" x="644.907" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="639.907" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="639.907" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="654.907" y="290.1387">jsonwebtoken</text><!--MD5=[e3bfa7961d47c56a847600d8be1ad6f4]
+entity mongoose--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="85" x="314.407" y="269"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="309.407" y="274"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="309.407" y="292.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65" x="324.407" y="290.1387">mongoose</text><ellipse cx="92.0697" cy="173.8774" fill="#F8F8F8" rx="29.163" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="73.5697" y="177.3618">config</text><ellipse cx="566.6714" cy="110.9529" fill="#F8F8F8" rx="62.7644" ry="14.9529" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="97" x="518.1714" y="114.4373">controllers/auth</text><ellipse cx="204.7625" cy="110.9711" fill="#F8F8F8" rx="72.8555" ry="16.9711" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="121" x="144.2625" y="114.4555">controllers/solicitud</text><ellipse cx="102.9839" cy="48.8774" fill="#F8F8F8" rx="30.5772" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="83.4839" y="52.3618">index</text><ellipse cx="861.1349" cy="173.8774" fill="#F8F8F8" rx="15.7279" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="18" x="852.1349" y="177.3618">jwt</text><ellipse cx="457.7045" cy="48.9595" fill="#F8F8F8" rx="52.7975" ry="12.9595" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="71" x="422.2045" y="52.4439">routes/auth</text><ellipse cx="210.8628" cy="48.7912" fill="#F8F8F8" rx="61.9558" ry="14.7912" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="163.3628" y="52.2755">routes/solicitud</text><ellipse cx="175.6766" cy="173.8774" fill="#F8F8F8" rx="39.7696" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="149.6766" y="177.3618">Solicitud</text><ellipse cx="435.9989" cy="110.8774" fill="#F8F8F8" rx="22.0919" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="27" x="422.4989" y="114.3618">user</text><ellipse cx="331.9486" cy="48.8774" fill="#F8F8F8" rx="27.0416" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="34" x="314.9486" y="52.3618">users</text><ellipse cx="391.141" cy="173.8774" fill="#F8F8F8" rx="36.234" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="367.641" y="177.3618">Usuario</text><ellipse cx="603.9798" cy="174.1146" fill="#F8F8F8" rx="68.5728" ry="16.1146" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="111" x="548.4798" y="177.5989">validar-campos</text><ellipse cx="742.7571" cy="173.97" fill="#F8F8F8" rx="55.3501" ry="13.47" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="703.7571" y="177.4544">validar-jwt</text><!--MD5=[6a720ccf1a2f6c6ebda49039c2627063]
+link config to mongoose--><path d="M111.597,183.548 C116.861,185.739 122.571,188.031 127.907,190 C169.969,205.524 180.002,211.907 223.907,221 C260.196,228.516 273.849,212.249 306.907,229 C322.679,236.9923 335.776,252.2405 344.605,264.8097 " fill="none" id="config-&gt;mongoose" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="347.432,268.9552,345.664,259.2663,344.6141,264.8249,339.0555,263.775,347.432,268.9552" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[0678eded4409ff710d042aad3e5bdf4b]
+link controllers/auth to bcryptjs--><path d="M629.99,111.811 C712.884,113.063 851.747,120.837 883.907,158 C914.216,193.025 863.721,239.8575 829.132,265.7489 " fill="none" id="controllers/auth-&gt;bcryptjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="824.999,268.8003,834.6152,266.6723,829.0214,265.8303,829.8633,260.2365,824.999,268.8003" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[2d0ad044cf74c10a230caa33ea90448a]
+link controllers/auth to express--><path d="M553.903,125.956 C545.959,134.805 535.837,146.681 527.907,158 C509.401,184.411 508.762,193.506 491.907,221 C482.875,235.7331 472.182,252.0111 463.846,264.4636 " fill="none" id="controllers/auth-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="460.889,268.8683,469.2265,263.6255,463.6759,264.717,462.5844,259.1665,460.889,268.8683" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[826dbcfd30bcb718b8ce94d4b13e1856]
+link controllers/auth to jwt--><path d="M625.317,116.68 C680.123,122.327 763.777,134.204 832.907,158 C836.707,159.308 840.612,161.087 844.255,162.963 " fill="none" id="controllers/auth-&gt;jwt" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="849.026,165.545,843.0151,157.7432,844.6288,163.165,839.207,164.7787,849.026,165.545" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[5fcc873cb9dc4fd15a01035270751ccf]
+link controllers/auth to Usuario--><path d="M532.972,123.761 C500.355,135.066 451.559,151.979 420.486,162.748 " fill="none" id="controllers/auth-&gt;Usuario" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="415.657,164.422,425.4706,165.2546,420.3814,162.7848,422.8511,157.6956,415.657,164.422" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[a9326c8890cecc296c3f6960e774c115]
+link controllers/solicitud to express--><path d="M222.03,127.835 C230.825,136.369 241.442,147.317 249.907,158 C270.504,183.996 261.403,204.042 289.907,221 C312.304,234.325 383.939,216.687 406.907,229 C421.435,236.7889 432.566,251.8487 439.859,264.3907 " fill="none" id="controllers/solicitud-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="442.372,268.8793,441.4662,259.0722,439.9297,264.5164,434.4855,262.9799,442.372,268.8793" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e0d9b63902bee8ee02f06314ff7ac10f]
+link controllers/solicitud to Solicitud--><path d="M197.287,128.027 C193.153,136.724 188.046,147.465 183.861,156.268 " fill="none" id="controllers/solicitud-&gt;Solicitud" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="181.643,160.935,189.1185,154.5227,183.7889,156.4189,181.8927,151.0893,181.643,160.935" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e5db0b20f65e1e699331321af2637ed8]
+link <b>index</b> to config--><path d="M101.3827,62.315 C100.3223,71.13 98.9221,83.285 97.9067,94 C95.8899,115.284 94.1103,139.844 93.0234,155.857 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;config" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="92.6819,160.943,97.2772,152.2319,93.0176,155.9543,89.2952,151.6947,92.6819,160.943" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[79f83ac62f174ff5576901020072590d]
+link <b>index</b> to cors--><path d="M92.3584,61.45 C69.9938,87.128 22.4273,150.177 54.9067,190 C68.5278,206.701 227.541,216.237 244.907,229 C256.581,237.5803 264.404,251.9454 269.272,263.9778 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;cors" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="271.179,268.9681,271.7013,259.1331,269.3935,264.2978,264.2288,261.99,271.179,268.9681" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[191a5796bff3c6286685e0c5b7c67f4b]
+link <b>index</b> to dotenv--><path d="M78.9188,57.154 C61.6323,63.708 39.5485,75.292 28.9067,94 C0.9988,143.062 -3.5173,174.798 28.9067,221 C60.4979,266.0157 127.053,279.5038 168.945,283.4622 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;dotenv" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="174.18,283.9195,165.5615,279.1529,169.1989,283.4852,164.8666,287.1227,174.18,283.9195" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[b4a8eeac42e61bfad7c4a336546ffd79]
+link <b>index</b> to express--><path d="M102.7217,62.033 C103.1298,79.022 106.436,109.975 123.907,128 C155.905,161.014 184.277,133.07 222.907,158 C238.785,168.247 237.584,176.597 250.907,190 C265.556,204.738 266.731,212.995 285.907,221 C310.775,231.381 383.143,216.294 406.907,229 C421.444,236.7726 432.574,251.8332 439.865,264.3796 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;express" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="442.377,268.8701,441.475,259.0626,439.9364,264.5062,434.4928,262.9676,442.377,268.8701" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[9b40920ee1426cb5429ed9596b2d5847]
+link <b>index</b> to routes/auth--><path d="M116.171,37.229 C124.721,30.453 136.444,22.589 148.407,19 C193.105,5.59 312.239,12.191 358.407,19 C380.95,22.325 405.467,29.671 424.524,36.261 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;routes/auth" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="429.247,37.917,422.079,31.1627,424.529,36.2615,419.4302,38.7115,429.247,37.917" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[c49793c5aa712c2905e00a0e0adb5e3e]
+link <b>index</b> to routes/solicitud--><path d="M133.704,49 C137.002,49 140.301,49 143.599,49 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;routes/solicitud" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="148.782,49,139.782,45,143.782,49,139.782,53,148.782,49" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[4ac8c6589424a7062ad87002b6c04a22]
+link <b>index</b> to users--><path d="M116.171,37.229 C124.721,30.453 136.444,22.589 148.407,19 C201.194,3.164 218.791,6.248 272.407,19 C286.194,22.279 300.41,29.289 311.488,35.709 " fill="none" id="&lt;b&gt;index&lt;/b&gt;-&gt;users" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="316.034,38.412,310.3434,30.3735,311.7366,35.8561,306.254,37.2494,316.034,38.412" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[1e3b1183d979979fe0214b6215a099bc]
+link jwt to jsonwebtoken--><path d="M847.241,180.745 C826.862,189.618 787.715,207.858 757.907,229 C742.975,239.5904 727.918,253.6555 716.623,265.0402 " fill="none" id="jwt-&gt;jsonwebtoken" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="712.943,268.7894,722.1029,265.1704,716.4462,265.2219,716.3948,259.5652,712.943,268.7894" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[27ee017532f974667cc36e604e78544b]
+link routes/auth to controllers/auth--><path d="M478.153,61.145 C495.18,70.518 519.709,84.019 538.666,94.455 " fill="none" id="routes/auth-&gt;controllers/auth" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="543.358,97.037,537.4031,89.1923,538.9779,94.6255,533.5447,96.2004,543.358,97.037" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[8e2a10be07dbfe92908f777de6391cc9]
+link routes/auth to express--><path d="M460.39,62.266 C462.04,71.058 464.053,83.205 464.907,94 C469.771,155.533 459.701,228.221 453.792,263.5578 " fill="none" id="routes/auth-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="452.883,268.901,458.3371,260.7002,453.7224,263.972,450.4506,259.3572,452.883,268.901" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[4f1c24fdec0fee7b7d17d1064cada534]
+link routes/auth to user--><path d="M453.455,62.142 C450.204,71.006 445.755,83.142 442.15,92.974 " fill="none" id="routes/auth-&gt;user" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="440.352,97.876,447.2061,90.8034,442.0734,93.1817,439.6951,88.0491,440.352,97.876" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[bcaee3be8b7bd7b77e74e3ab812b72c7]
+link routes/solicitud to controllers/solicitud--><path d="M209.485,64.219 C208.764,71.427 207.873,80.334 207.07,88.37 " fill="none" id="routes/solicitud-&gt;controllers/solicitud" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="206.53,93.763,211.4052,85.2054,207.0272,88.7878,203.4449,84.4098,206.53,93.763" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[be0a2cd6757cd06cf07c1c191847de96]
+link routes/solicitud to express--><path d="M240.029,62.301 C254.935,69.744 272.502,80.431 284.907,94 C316.83,128.919 297.911,156.092 330.907,190 C334.216,193.401 403.262,225.961 406.907,229 C418.875,238.9794 429.56,252.8569 437.285,264.3001 " fill="none" id="routes/solicitud-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="440.201,268.7137,438.5768,258.9997,437.4446,264.5421,431.9022,263.4099,440.201,268.7137" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[de4a72b7e2eb410b3cfcf9e926dba0e5]
+link Solicitud to mongoose--><path d="M185.264,186.705 C194.742,197.631 210.461,213.364 227.907,221 C260.236,235.1508 275.466,212.972 306.907,229 C322.66,237.0304 335.758,252.2763 344.592,264.8349 " fill="none" id="Solicitud-&gt;mongoose" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="347.422,268.9766,345.6476,259.2889,344.6014,264.8482,339.0421,263.8019,347.422,268.9766" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[26ad015635db17b3b70966581ea643f8]
+link user to bcryptjs--><path d="M454.644,117.846 C466.388,121.298 481.902,125.473 495.907,128 C564.017,140.291 759.384,106.758 805.907,158 C832.018,186.76 819.853,236.0221 809.707,263.9887 " fill="none" id="user-&gt;bcryptjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="807.846,268.9531,814.7506,261.9298,809.6011,264.2712,807.2596,259.1217,807.846,268.9531" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e505b1ac7a8bdbc18e8ff5c43dfa2f9e]
+link user to express--><path d="M436.891,124.165 C439.246,153.267 445.229,227.2 448.191,263.8041 " fill="none" id="user-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="448.606,268.9241,451.8669,259.6307,448.2026,263.9404,443.893,260.2761,448.606,268.9241" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[709f841eb55f11a4e29b5f07eba406a4]
+link user to jwt--><path d="M454.637,117.884 C466.379,121.35 481.893,125.527 495.907,128 C643.988,154.135 688.828,114.958 832.907,158 C836.757,159.15 840.685,160.861 844.333,162.72 " fill="none" id="user-&gt;jwt" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="849.102,165.309,843.101,157.4995,844.7078,162.9234,839.284,164.5302,849.102,165.309" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[25b9f86eb3dbb6aab82ed0bf52c1ad36]
+link user to Usuario--><path d="M427.653,123.188 C420.664,132.662 410.56,146.358 402.716,156.993 " fill="none" id="user-&gt;Usuario" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="399.723,161.048,408.2846,156.1799,402.6911,157.0243,401.8467,151.4308,399.723,161.048" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[d234ec15afeba610dca6a1d0af2ca9fb]
+link users to express--><path d="M329.915,62.341 C326.411,88.178 321.712,148.96 346.907,190 C363.546,217.105 383.553,207.41 406.907,229 C418.269,239.5045 428.882,253.2669 436.722,264.5195 " fill="none" id="users-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="439.692,268.8545,437.904,259.1693,436.8656,264.73,431.3049,263.6916,439.692,268.8545" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[336f84c780f1bf113f420cf567f8bfe2]
+link users to user--><path d="M348.616,59.64 C367.037,70.267 396.644,87.349 416.188,98.624 " fill="none" id="users-&gt;user" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="420.926,101.358,415.1288,93.3961,416.5949,98.8596,411.1314,100.3258,420.926,101.358" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[d28e6d509d1b41fbc8ce292506513d37]
+link Usuario to mongoose--><path d="M387.138,187.192 C381.416,205.706 370.459,241.1543 363.426,263.9075 " fill="none" id="Usuario-&gt;mongoose" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="361.902,268.8393,368.3814,261.4219,363.3785,264.0623,360.7381,259.0595,361.902,268.8393" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[c8609d713c104b79c32e262f675ce346]
+link <b>validar-campos</b> to express--><path d="M582.352,189.33 C566.469,199.361 544.044,212.447 522.907,221 C509.717,226.338 503.731,221.084 491.907,229 C478.712,237.8331 468.046,252.2369 460.764,264.2242 " fill="none" id="&lt;b&gt;validar-campos&lt;/b&gt;-&gt;express" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="458.045,268.8515,466.053,263.118,460.5779,264.5405,459.1554,259.0654,458.045,268.8515" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[d2965e45d778f1977a00ce693c0a8bf1]
+link <b>validar-campos</b> to express-validator--><path d="M598.484,190.295 C591.702,209.423 580.056,242.2708 572.419,263.8119 " fill="none" id="&lt;b&gt;validar-campos&lt;/b&gt;-&gt;express-validator" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="570.664,268.7617,577.4416,261.6158,572.3349,264.0492,569.9016,258.9424,570.664,268.7617" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[1bcc52b13574762929fca7aceb8f3550]
+link <b>validar-jwt</b> to express--><path d="M705.627,184.017 C697.178,186.022 688.24,188.111 679.907,190 C616.06,204.471 600.12,208.254 535.907,221 C516.411,224.87 508.814,218.55 491.907,229 C478.188,237.4785 467.406,252.2147 460.203,264.4427 " fill="none" id="&lt;b&gt;validar-jwt&lt;/b&gt;-&gt;express" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="457.712,268.818,465.6405,262.9752,460.1855,264.4727,458.688,259.0176,457.712,268.818" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[9e6ff59e9bfcb9d7fdd26b89f1fc0077]
+link <b>validar-jwt</b> to jsonwebtoken--><path d="M737.745,187.618 C730.104,206.296 715.695,241.5184 706.46,264.0911 " fill="none" id="&lt;b&gt;validar-jwt&lt;/b&gt;-&gt;jsonwebtoken" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="704.459,268.983,711.5693,262.1681,706.3525,264.3554,704.1652,259.1385,704.459,268.983" style="stroke: #000000; stroke-width: 1.0;"/><script type="text/plantuml"><![CDATA[MD5=[99e4e6d8f28b553299bc33e71bad27d3]
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 15
+skinparam ranksep 30
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+(config)
+(controllers/auth)
+(controllers/solicitud)
+(<b>index</b>)
+(jwt)
+(routes/auth)
+(routes/solicitud)
+(Solicitud)
+(user)
+(users)
+(Usuario)
+(<b>validar-campos</b>)
+(<b>validar-jwt</b>)
+
+package "Dependencies" {
+  [bcryptjs]
+  [cors]
+  [dotenv]
+  [express]
+  [express-validator]
+  [jsonwebtoken]
+  [mongoose]
+}
+
+(config) ---> [mongoose]
+(controllers/auth) ---> [bcryptjs]
+(controllers/auth) ---> [express]
+(controllers/auth) --> (jwt)
+(controllers/auth) --> (Usuario)
+(controllers/solicitud) ---> [express]
+(controllers/solicitud) --> (Solicitud)
+(<b>index</b>) -[thickness=1]> (config)
+(<b>index</b>) --[thickness=1]> [cors]
+(<b>index</b>) --[thickness=1]> [dotenv]
+(<b>index</b>) --[thickness=1]> [express]
+(<b>index</b>) -[thickness=1]> (routes/auth)
+(<b>index</b>) -[thickness=1]> (routes/solicitud)
+(<b>index</b>) -[thickness=1]> (users)
+(jwt) ---> [jsonwebtoken]
+(routes/auth) --> (controllers/auth)
+(routes/auth) ---> [express]
+(routes/auth) --> (user)
+(routes/solicitud) --> (controllers/solicitud)
+(routes/solicitud) ---> [express]
+(Solicitud) ---> [mongoose]
+(user) ---> [bcryptjs]
+(user) ---> [express]
+(user) --> (jwt)
+(user) --> (Usuario)
+(users) ---> [express]
+(users) --> (user)
+(Usuario) ---> [mongoose]
+(<b>validar-campos</b>) ---[thickness=1]> [express]
+(<b>validar-campos</b>) ---[thickness=1]> [express-validator]
+(<b>validar-jwt</b>) ---[thickness=1]> [express]
+(<b>validar-jwt</b>) ---[thickness=1]> [jsonwebtoken]
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>
