@@ -23,14 +23,18 @@ Ejecute la imagen
 ```bash
 docker run -p 49160:3001 -d scf/node-web-app
 ```
-> Si quiere realizar la instalación sin docker, debe instalar node v: > 14.16.7 después ejecutar los siguientes comandos
+>Si quiere acceder a los endpoint debe acceder al puerto localhost:49160/ 
+
+## Sin Docker
+ Si quiere realizar la instalación sin docker, debe instalar node version > 14.16.7 después ejecutar los siguientes comandos.
+
 Instala librerias
 ```bash
 npm i
 ```
-Ejecuta el servidor
+Ejecuta el server
 ```bash
 npm start
 ```
-
+## Diagrama de dependencias
 <img src="./arkit.svg">
