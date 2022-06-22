@@ -32,6 +32,6 @@ app.use("/api/solicitudes", require("./routes/solicitud"));
 app.use("/api/email", require("./routes/email"));
 
 // Escuchar peticiones
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log(`Servidor corriendo en puerto ${process.env.PORT}`);
 });
