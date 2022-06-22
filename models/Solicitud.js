@@ -10,6 +10,10 @@ const SolicitudSchema = Schema(
       type: String,
       require: true,
     },
+    observacion: {
+      type: String,
+      require: true,
+    },
     usuario: {
       type: Schema.Types.ObjectId,
       ref: "Usuario",

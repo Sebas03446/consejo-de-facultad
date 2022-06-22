@@ -11,7 +11,12 @@ const app = express();
 dbConnection();
 
 // CORS
-app.use(cors({ origin: ["http://localhost:3000"], credentials: true }));
+app.use(
+  cors({
+    origin: ["http://localhost:3000", "https://cdfunal.me"],
+    credentials: true,
+  })
+);
 
 // Directorio Público
 app.use(express.static("public"));
@@ -24,7 +29,7 @@ app.use(cookieParser());
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/users", require("./routes/users"));
 app.use("/api/solicitudes", require("./routes/solicitud"));
-app.use("/api/degree", require("./routes/pregrado"));
+app.use("/api/email", require("./routes/email"));
 
 // Escuchar peticiones
 app.listen(process.env.PORT, () => {
