@@ -13,7 +13,7 @@ dbConnection();
 // CORS
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://cdfunal.me"],
+    origin: ["http://localhost:3000", "https://cdfunal.me/"],
     credentials: true,
   })
 );
