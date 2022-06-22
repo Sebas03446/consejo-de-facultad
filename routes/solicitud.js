@@ -17,7 +17,7 @@ const { validarJWT } = require("../middlewares/validar-jwt");
 const router = Router();
 
 // Validar jwt
-router.use(validarJWT);
+// router.use(validarJWT);
 
 router.post("/new_solicitud", crearSolicitud);
 router.get("/list_solicitudes", listAllSolicitudes);
