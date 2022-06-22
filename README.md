@@ -37,4 +37,4 @@ Ejecuta el server
 npm start
 ```
 ## Diagrama de dependencias
-<img style="background-color:#F7E2D6;" src="./arkit.svg">
+<img src="./arkit.svg">
